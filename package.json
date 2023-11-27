@@ -2,6 +2,9 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "/blog/*"
+  ],
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
@@ -24,5 +27,6 @@
     "hexo-server": "^3.0.0",
     "hexo-theme-aurora": "^2.5.3",
     "hexo-theme-landscape": "^1.0.0"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
