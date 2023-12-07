@@ -1,7 +1,10 @@
 ---
 title: Hexoでブログ構築&公開
 date: 2023-12-08 02:00
-tags: hexo, tech
+categories:
+  - tech
+tags: 
+  - hexo
 ---
 HexoっていうSSGが気になったので試してみた。
 
@@ -49,6 +52,17 @@ Aurora以外におすすめなのは、[Icarus](https://github.com/ppoffice/hexo
 でも、テーマによっては中華フォント(Microsoft YaHei)になっている場合があります。
 
 `node_modules\hexo-theme-icarus\include\style\base.styl`に行き、Microsoft Yaheiと書いてある部分をすべてsans-serifなどに変更します。そうすれば治ります。
+
+### 記事を書くときに覚えておくといいこと
+タグやカテゴリーは以下のように書く。
+```yaml
+title: Hexo
+date: 0000-00-00 00:00
+categories:
+  - tech
+tags: 
+  - hexo
+```
 
 ### カスタマイズ
 テーマは`_config.{テーマ名}.yml`である程度カスタマイズできるようです。
