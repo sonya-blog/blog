@@ -104,11 +104,4 @@ deploy:
   type: ''
 
 sitemap:
-  path: 
-    - sitemap.xml
-    - sitemap.txt
-  template: ./template/sitemap.xml
-  template_txt: ./template/sitemap.txt
-  rel: false
-  tags: true
-  categories: true
+  path: sitemap.xml
