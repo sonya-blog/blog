@@ -194,8 +194,8 @@ footer_links:
     links:
       - title: Misskey.io # link title
         url: https://misskey.io/@sonyakun # URL link
-      - title: # link title
-        url: # URL link
+      - title: RSS # link title
+        url: https://blog.sonyakun.com/atom.xml # URL link
       # - title: Friends # link of friends mode / 友链模式
       #   mode: 'links'
 
