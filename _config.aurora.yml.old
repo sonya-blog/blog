@@ -9,7 +9,7 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: sonya's Blog
+  subtitle: そにゃのブログ
   author: sonyakun
   nick: 
   description: 
@@ -51,7 +51,7 @@ authors:
 #！ @docs https://aurora.tridiamond.tech/guide/menu.html
 #! ---------------------------------------------------------------
 menu:
-  About: true
+  About: false
   Tags: true
   Archives: true
   Friends: false
@@ -82,10 +82,10 @@ socials:
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 site_meta:
-  cdn: cn
+  cdn: en
   favicon:
   description: 'sonyakunが思ったことをいろいろ書きます'
-  keywords: ' tech, idea'
+  keywords: 'tech, idea'
   author: 'sonyakun'
 
 #! ---------------------------------------------------------------

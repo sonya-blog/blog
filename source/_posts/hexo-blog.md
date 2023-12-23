@@ -1,5 +1,5 @@
 ---
-title: Hexoでブログ構築&公開
+title: Hexoを使ってブログを構築
 date: 2023-12-08 02:00
 categories:
   - tech
@@ -20,12 +20,12 @@ Node.js製の強力なブログフレームワークらしいです。
 プラグインで拡張できたり、もちろんテーマも使えます。
 
 ### テーマ
-[公式サイト](https://hexo.io/themes/)だったり[GitHubのトピック](https://github.com/topics/hexo-theme)だったりで探すのがおすすめ。ちなみにHexoで構築したブログには[Aurora](https://github.com/auroral-ui/hexo-theme-aurora)というものを使った。(気づいてるかもしれませんが構築したブログが[このブログ](https://blog.sonyakun.com)です。)
+[公式サイト](https://hexo.io/themes/)だったり[GitHubのトピック](https://github.com/topics/hexo-theme)だったりで探すのがおすすめ。
 
-Aurora以外におすすめなのは、[Icarus](https://github.com/ppoffice/hexo-theme-icarus)です。日本でも使っている方がたまにいるのでトラブルが起きてもどうにかなりそうなので...
+おすすめなのは、[Icarus](https://github.com/ppoffice/hexo-theme-icarus)です。日本でも使っている方がたまにいるのでトラブルが起きてもどうにかなりそうなので...
 
 ### プラグイン
-`sitemap.xml`を自動生成してくれるhexo-generator-sitemapとかは入れたほうがいいと思います。
+~~`sitemap.xml`を自動生成してくれるhexo-generator-sitemapとかは入れたほうがいいと思います。~~ hexo-generator-sitemapだとGoogleに登録できませんでした...ちゃんと動く[`hexo-generator-seo-friendly-sitemap`](https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap)がいいと思います。
 
 ### 構築
 ※Node.jsがインストールされている前提で進みます。
@@ -51,9 +51,9 @@ Aurora以外におすすめなのは、[Icarus](https://github.com/ppoffice/hexo
 ### テーマを変える
 今回は、Icarusを利用します。
 `npm install hexo-theme-icarus`して`hexo config theme icarus`します。
-でも、テーマによっては中華フォント(Microsoft YaHei)になっている場合があります。
+でも、テーマによっては中華フォント(Microsoft YaHeiなど)になっている場合があります。
 
-`node_modules\hexo-theme-icarus\include\style\base.styl`に行き、Microsoft Yaheiと書いてある部分をすべてsans-serifなどに変更します。そうすれば治ります。
+icarusなら`node_modules\hexo-theme-icarus\include\style\base.styl`に行き、Microsoft Yaheiと書いてある部分をすべてsans-serifなどに変更します。そうすれば治ります。
 
 ### 記事を書くときに覚えておくといいこと
 タグやカテゴリーは以下のように書く。
@@ -69,8 +69,10 @@ tags:
 ### カスタマイズ
 テーマは`_config.{テーマ名}.yml`である程度カスタマイズできるようです。
 
-方法は自分で調べてください
+方法は自分で調べてください(丸投げ)
 
+### 生成
+htmlを出力するには`hexo generate`を入力してください。入力すると、publicフォルダにhtmlが生成されます。
 
 
 <p><small>めっちゃ書くのつかれた...</small></p>
