@@ -167,7 +167,7 @@ comment:
 share:
     type: sharethisis
     # URL to the ShareThis share plugin script
-    install_url: 'https://platform-api.sharethis.com/js/sharethis.js#property=65872e955d554e00126ed72e&product=inline-share-buttons'
+    install_url: https://platform-api.sharethis.com/js/sharethis.js#property=65872e955d554e00126ed72e&product=inline-share-buttons
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
@@ -321,8 +321,7 @@ plugins:
     # Google Analytics plugin settings
     # https://analytics.google.com
     google_analytics:
-        # Google Analytics tracking ID
-        tracking_id: 
+        tracking_id: G-KHZ5C3MRZT
     # Hotjar user feedback plugin
     # https://www.hotjar.com/
     hotjar:
