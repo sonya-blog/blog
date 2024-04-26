@@ -7,6 +7,7 @@ tags:
   - hexo
 ---
 
+> **ブログページを移行しました。現在は[こちら](https://techlog.sonyakun.com/post/2023/12/07/hexo-blog/)から最新版を閲覧できます。**
 
 HexoっていうSSGが気になったので試してみた。
 
