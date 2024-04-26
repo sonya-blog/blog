@@ -9,6 +9,8 @@ tags:
   - misspy
 ---
 
+> **ブログページを移行しました。現在は[こちら](https://techlog.sonyakun.com/post/2023/12/23/mk-py-wrapper-231223/)から最新版を閲覧できます。**
+
 > この記事は[Misskey Advent Calendar 2023
 ](https://adventar.org/calendars/8742)の24日目の記事です。
 
